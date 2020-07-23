@@ -1,0 +1,27 @@
+*{
+    background-color: palegoldenrod;
+}
+#Header{
+    color: red;
+    text-align: center;
+    font-size: 120%;
+}
+#Scoring{
+    text-align: center;
+    margin-bottom: 0;
+    color: tomato;
+}
+#Scoring h3, br{
+    margin: 0;
+}
+#timing{
+    text-align: center;
+    color: orange;
+}
+#notes{
+    width: 60%;
+    color: darkblue;
+    text-align: center;
+    margin: 30px;
+    width: auto;
+}
