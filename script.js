@@ -14,7 +14,7 @@ setTimerHTML();
 setScoreHTML();
 function getWeekCount(){
     let time = new Date().getTime();
-    return Math.floor((time-1595217599)/604800);
+    return Math.floor((time-1595217599)/604800.0);
 }
 function timerPressed(){
     let newTimerState = "true";//timer turned on
