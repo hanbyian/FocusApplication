@@ -1,5 +1,5 @@
 let interval;
-if(localStorage.length == 0){
+if((localStorage.getItem("clock-start")== null) || (localStorage.getItem("timer-is-on")== null) || (localStorage.getItem("high-score")== null) || (localStorage.getItem("weekly-score")== null)){
     localStorage.setItem("timer-is-on", "false");
     localStorage.setItem("high-score", "0");
     localStorage.setItem("weekly-score", "0");
