@@ -13,7 +13,7 @@ if (getWeekCount() > Number(localStorage.getItem("week-count"))){
 setTimerHTML();
 setScoreHTML();
 function getWeekCount(){
-    let time = new Date().getTime();
+    let time = new Date().getTime()/1000.0;
     return Math.floor((time-1595116800)/604800.0);
 }
 function timerPressed(){
