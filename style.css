@@ -18,6 +18,9 @@
     text-align: center;
     color: orange;
 }
+#timing button{
+    padding: 20px 30px;
+}
 #notes{
     width: 60%;
     color: darkblue;
