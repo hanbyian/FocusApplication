@@ -6,6 +6,9 @@ if((localStorage.getItem("clock-start")== null) || (localStorage.getItem("timer-
     localStorage.setItem("clock-start", "0");
     localStorage.setItem("week-count", getWeekCount());
 }
+if (localStorage.getItem("timer-is-on")=="true"){
+    interval = setInterval(setClock, 1000);   
+}
 if (getWeekCount() > Number(localStorage.getItem("week-count"))){
     localStorage.setItem("weekly-score","0");
     localStorage.setItem("week-count", Number(getWeekCount()));
